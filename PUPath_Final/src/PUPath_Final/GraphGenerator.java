@@ -9,10 +9,12 @@ public class GraphGenerator {
 
     static {
         destinations.add("entrance");
-        destinations.add("shrine");
+        destinations.add("Tennis Court");
+        destinations.add("Monument");
+        destinations.add("Apolinario Mabini Shrine");
         destinations.add("west wing");
         destinations.add("right wing");
-        destinations.add("chapel");
+        destinations.add("Interfaith chapel");
         destinations.add("south wing");
 
         paths.add(new Node("entrance", "shrine", 12, Direction.STRAIGHT));
